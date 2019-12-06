@@ -1,0 +1,19 @@
+import math
+
+def round_down(n, decimals=0):
+  multiplier=10**decimals
+  return math.floor(n * multiplier) /  multiplier
+
+mass=14.0
+dividedMass=mass/3.0
+print ("Divided Mass:")
+print (dividedMass)
+
+roundedDownMass=round_down(dividedMass)
+print ("roundedDownMass:")
+print (roundedDownMass)
+
+fuel=roundedDownMass-2.0
+print ("fuel:")
+print (fuel)
+
