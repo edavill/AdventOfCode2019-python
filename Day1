@@ -1,0 +1,12 @@
+mass=12.0
+dividedMass=mass/3.0
+print ("roundedDownMass:")
+print (dividedMass)
+
+roundedDownMass=round(dividedMass)
+print ("roundedDownMass:")
+print (roundedDownMass)
+
+fuel=roundedDownMass-2.0
+print ("fuel:")
+print (fuel)
